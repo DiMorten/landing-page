@@ -44,7 +44,7 @@ body {
 }
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-basis: 32%;
     margin-top: 15px;
@@ -53,6 +53,9 @@ body {
     flex-wrap: wrap;
     
 }
+
+
+
 .link-list {
     list-style-type: none;
     margin: 0px;
@@ -273,5 +276,23 @@ button {
     height: 80px;
     background-color: #1f2937;
     color: #f9faf8;
+
+}
+
+
+@media (max-width: 1000px) {
+    .header {
+        justify-content: space-around;
+    }
+    .title {
+        display: flex;
+        text-align: center;
+        justify-content: center;        
+    }
+    .title-left {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
 
 }
