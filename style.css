@@ -280,7 +280,8 @@ button {
     .title {
         display: flex;
         text-align: center;
-        justify-content: center;        
+        justify-content: center;   
+        min-height: 0;     
     }
     .title-left {
         display: flex;
@@ -291,4 +292,5 @@ button {
         min-width: 0;
 
       }
+
 }
