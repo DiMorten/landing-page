@@ -99,6 +99,7 @@ a {
     min-height:450px;
     flex-wrap: wrap;
     padding-bottom: 50px;
+    padding-top: 45px;
 }
 .title-left{
     display: flex;
