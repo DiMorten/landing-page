@@ -283,11 +283,13 @@ button {
         justify-content: center;   
         min-height: 0; 
         padding-top: 40px;    
+        
     }
     .title-left {
         display: flex;
         text-align: center;
         justify-content: center;
+        align-items: center;
     }
     .img_bio {
         min-width: 0;
